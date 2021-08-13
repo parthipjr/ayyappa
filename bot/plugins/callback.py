@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"""<b>📒𝐓𝐨𝐭𝐚𝐥 𝐅𝐢𝐥𝐞𝐬 :- {(len_results)} </b>\n<b>🎬Mᴏᴠɪᴇ Nᴀᴍᴇ :-</b> <code>{query}</code>\n<b><a href="https://t.me/moviemediass/3208">⚠️NB: കിട്ടുന്നില്ലെങ്കിൽ ഇവിടെ ക്ലിക്ക് ചെയ്യുക</a></b>"""
+    text=f"""<b>📒𝐓𝐨𝐭𝐚𝐥 𝐅𝐢𝐥𝐞𝐬 :- {leng} </b>\n<b>🎬Mᴏᴠɪᴇ Nᴀᴍᴇ :-</b> <code>{query}</code>\n<b><a href="https://t.me/moviemediass/3208">⚠️NB: കിട്ടുന്നില്ലെങ്കിൽ ഇവിടെ ക്ലിക്ക് ചെയ്യുക</a></b>"""
         
     try:
         await update.message.edit(
