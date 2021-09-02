@@ -68,7 +68,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔊 Bot Updates 🔊', url=f"{MT_BOT_UPDATES}"
+                                    '⚔ PDISK LINKS ⚔', url=f"{MT_BOT_UPDATES}"
                                 )
                         ]
                     ]
