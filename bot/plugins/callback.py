@@ -1680,7 +1680,7 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('👤Mrk YT', url='https://t.me/MRK_YT'),
+            InlineKeyboardButton('Any Doubts', url='http://t.me/FBassistantbot'),
             InlineKeyboardButton('Skp KP👤', url='https://t.me/Skp_Kp')
         ],[
             InlineKeyboardButton('👤 AlbertEinstein 👤', url='https://t.me/AlbertEinsteinTG')
